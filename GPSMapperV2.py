@@ -8,11 +8,11 @@ lat = 0
 lng = 0
 count = 0
 
-
+filename = 'Zimbabwe 150000'
 startlat = -15.6170402
 startlng = 25.265084
 dt = str(datetime.datetime.today().strftime("-%B %d %Y "))
-with open('' + dt + 'GPS ONLY ZIMBABWE FINAL 150000.csv', 'a', newline='', encoding='utf8') as g:
+with open('' + dt + filename+'.csv', 'a', newline='', encoding='utf8') as g:
 
         while lat >= -22.407937:
             if count == 0:
